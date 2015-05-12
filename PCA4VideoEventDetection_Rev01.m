@@ -37,8 +37,8 @@ for i = 1 : nFrames
     SingleFrame(:,:,:,i) = read(Video1,i);
     SingleGrayFrame(:,:,i) = im2double(rgb2gray(SingleFrame(:,:,:,i)));
     AverageSingleGrayFrame(:,i) = mean(SingleGrayFrame(:,:,i));
-    for j = 1 vidWidth
-    SingleGrayFrameScaled(:,i) = SingleGrayFrame(:,j);
+%     for j = 1 vidWidth
+%     SingleGrayFrameScaled(:,i) = SingleGrayFrame(:,j);
 end
 
 
