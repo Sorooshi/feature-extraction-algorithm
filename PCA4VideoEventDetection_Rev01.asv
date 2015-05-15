@@ -60,14 +60,14 @@ PCAComp = 180;
 ReducedNormalizedFrame = zeros(size(NormalizedFrame,1),PCAComp);
 U_Reduce = U(:,1:PCAComp);
 
-% for i=1: nFrames
+for i=1: nFrames
     for j=1:Nrow
         for l=1:PCAComp
             x = NormalizedFrame(j,:)';
             ReducedNormalizedFrame(j,l) = x'*U_Reduce(i,:,l);
         end
     end
-% end
+end
     
             
 
