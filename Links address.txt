@@ -3,3 +3,8 @@
 
  http://www.mathworks.com/matlabcentral/fileexchange/index?utf8=%E2%9C%93&term=pca
 
+
+ MatLab nD Matrix Multiplay where nD >2 : (library download link address)
+
+ http://www.mathworks.com/matlabcentral/fileexchange/25977-mtimesx-fast-matrix-multiply-with-multi-dimensional-support
+
